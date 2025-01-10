@@ -1,0 +1,36 @@
+Em Python, as condições aninhadas ocorrem quando uma estrutura condicional (como um if, elif ou else) é colocada dentro de outra.
+Isso permite verificar múltiplas condições de maneira hierárquica. O uso de condições aninhadas é útil para realizar verificações mais complexas.
+
+Exemplo de condição aninhada:
+x = 10
+y = 5
+if x > 0:
+   if y > 0:
+      print("Ambos x e y são positivos")
+   else:
+      print("x é positivo, mas y não é")
+else:
+   print("x não é positivo")
+
+Explicação:
+O primeiro if verifica se x é maior que 0.
+Se x for positivo, o segundo if verifica se y também é maior que 0.
+Dependendo do resultado das condições, a mensagem correspondente é impressa.
+
+Cuidados:
+Indentação: Em Python, a indentação é crucial para definir o escopo das condições.
+Legibilidade: Condições muito profundas podem tornar o código difícil de entender, então é importante evitar aninhamentos excessivos.
+Em casos mais complexos, você pode considerar usar funções auxiliares para simplificar.
+
+Alternativas:
+Operadores lógicos (and, or, not) podem ser usados para combinar múltiplas condições de forma mais compacta.
+
+Exemplo de uma forma mais compacta:
+if x > 0 and y > 0:
+   print("Ambos x e y são positivos")
+elif x > 0:
+   print("x é positivo, mas y não é")
+else:
+   print("x não é positivo")
+
+O uso de condições aninhadas pode ser útil, mas é sempre importante balancear clareza e complexidade no seu código.

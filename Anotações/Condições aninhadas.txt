@@ -1,3 +1,5 @@
+Condições aninhadas
+
 Em Python, as condições aninhadas ocorrem quando uma estrutura condicional (como um if, elif ou else) é colocada dentro de outra.
 Isso permite verificar múltiplas condições de maneira hierárquica. O uso de condições aninhadas é útil para realizar verificações mais complexas.
 

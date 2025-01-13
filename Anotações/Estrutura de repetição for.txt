@@ -1,0 +1,72 @@
+Estrutura de repetição 'for'
+
+A estrutura de repetição for em Python é utilizada para iterar sobre uma sequência (como listas, tuplas, strings ou intervalos).
+A sintaxe básica do for é a seguinte:
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+for item in sequencia:
+   # código a ser executado
+
+Aqui, o item vai assumir cada valor presente na sequencia, e o código dentro do bloco do for será executado para cada item.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Exemplos:
+Iterando sobre uma lista:
+frutas = ['maçã', 'banana', 'laranja']
+for fruta in frutas:
+   print(fruta)
+
+Saída:
+maçã
+banana
+laranja
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Usando range() para criar um intervalo:
+O range() é comumente utilizado para criar uma sequência numérica.
+for i in range(5): # vai de 0 até 4
+   print(i)
+
+Saída:
+0
+1
+2
+3
+4
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Iterando sobre uma string:
+texto = "Python"
+for letra in texto:
+   print(letra)
+
+Saída:
+P
+y
+t
+h
+o
+n
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Usando range() com parâmetros (início, fim e passo):
+for i in range(2, 10, 2): # começa em 2, vai até 9 e pula de 2 em 2
+   print(i)
+
+Saída:
+2
+4
+6
+8
+
+Explicação:
+range(início, fim, passo): gera uma sequência de números do valor de início até fim-1, com o incremento definido pelo passo.
+Se não especificado, o valor padrão de passo é 1.
+Essa é a estrutura básica do for em Python, que é bastante flexível e poderosa.
+
+--------------------------------------------------------------------------------------------------------------------------------

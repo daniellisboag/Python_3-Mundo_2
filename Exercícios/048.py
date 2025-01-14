@@ -3,6 +3,7 @@
 
 soma = 0
 valores = 0
+
 for contagem in range(1, 501):
    if contagem % 2 == 1:
       if contagem % 3 == 0:

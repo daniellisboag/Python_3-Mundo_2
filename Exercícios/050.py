@@ -3,6 +3,7 @@
 
 soma = 0
 conta = 0
+
 for contagem in range(1, 7):
    numero = int(input(f'Digite o {contagem}° número: '))
    if numero % 2 == 0:

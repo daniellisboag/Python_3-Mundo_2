@@ -1,0 +1,31 @@
+Estrutura de repetição while
+
+A estrutura de repetição while é uma das formas de criar loops (laços de repetição) em programação.
+Ela permite que um bloco de código seja executado enquanto uma condição for verdadeira.
+
+A sintaxe básica de um while é a seguinte:
+
+while condição:
+   # bloco de código a ser executado
+
+Explicação:
+Condição: uma expressão que será avaliada como verdadeira ou falsa. Enquanto essa condição for verdadeira, o bloco de código
+dentro do while será executado repetidamente.
+Bloco de código: o conjunto de instruções que serão executadas enquanto a condição for verdadeira.
+
+Exemplo simples:
+contador = 0
+
+while contador < 5:
+   print(contador)
+   contador += 1
+
+O que acontece:
+A variável contador começa com o valor 0.
+Enquanto contador for menor que 5, o código dentro do while será executado.
+A cada iteração, o valor de contador é incrementado em 1, até que a condição contador < 5 se torne falsa.
+O loop imprime os números de 0 a 4.
+
+Características importantes:
+Possibilidade de loops infinitos: Se a condição nunca se tornar falsa, o while pode executar infinitamente.
+Alteração da condição: Dentro do loop, é comum alterar variáveis envolvidas na condição para evitar um loop infinito.

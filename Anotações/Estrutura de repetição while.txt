@@ -29,3 +29,26 @@ O loop imprime os números de 0 a 4.
 Características importantes:
 Possibilidade de loops infinitos: Se a condição nunca se tornar falsa, o while pode executar infinitamente.
 Alteração da condição: Dentro do loop, é comum alterar variáveis envolvidas na condição para evitar um loop infinito.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Em Python, você pode interromper a execução de um loop while usando a instrução break. O break faz com que o loop seja
+imediatamente finalizado, independentemente de sua condição de repetição ainda ser verdadeira.
+
+Aqui está um exemplo básico de como usar o break para interromper um loop while:
+
+contador = 0
+
+while True:  # Loop infinito
+   contador += 1
+   print(f"Contador: {contador}")
+   if contador >= 5:
+      print("Condição de parada atingida. Saindo do loop.")
+      break  # Interrompe o loop quando o contador chega a 5
+
+Neste exemplo, o loop while é infinito (while True), mas a execução é interrompida quando o contador atinge 5, usando o break.
+
+Como funciona:
+O loop começa a contar de 1 até 5.
+Quando o contador chega a 5, a instrução if contador >= 5 é atendida e o break é acionado, fazendo o programa sair do loop while.
+Se precisar de mais exemplos ou tiver outras dúvidas, é só avisar!

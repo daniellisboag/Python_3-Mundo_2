@@ -38,3 +38,19 @@ while n != 0:
       else:
          impar += 1
 print(f'Você digitou {par} números pares e {impar} números ímpares!')
+
+# 1 - Loop infinito
+contador = 1
+
+while True:
+   print(contador, end = ' ')
+   contador += 1
+
+# 2
+numero = soma = 0
+while numero != 999:
+   numero = int(input('Digite um número: '))
+   if numero == 999:
+      break
+   soma += numero
+print(f'A soma vale {soma}')
